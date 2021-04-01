@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+
+body {
+    font-family: 'Cinzel', serif;
+    ;
+  }
+  
+  .contenedor {
+    width: 98%;
+    margin: auto;
+  }
+  
+  @media (min-width:1024px) {
+    .contenedor {
+      width: 1000px;
+    }
+  }
+  
+  section {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  
+  
+  
+  h2 {
+    float: left;
+  }
+
+
+  #presentacion {
+    text-align: center;
+  
+  }

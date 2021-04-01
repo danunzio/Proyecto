@@ -1,0 +1,44 @@
+
+
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  
+  
+  #info .contenedor {
+    display: flex;
+    
+    justify-content: center;
+  }
+  
+  .info-cliente {
+    margin: 20px;
+  }
+  
+  
+  .info-cliente img {
+    width: 180px;
+    height: 150px;
+    background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+    color:#555;;
+    border: 3px solid rgb(5, 5, 5);
+    padding: 29px;
+  }
+  
+  
+  @media (min-width:480px) {
+    .info-cliente {
+      width: 40%;
+    }
+  }
+  
+  @media (min-width:1024px) {
+    .info- {
+      width: auto;
+    }
+  }
