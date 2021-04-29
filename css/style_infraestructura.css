@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +8,8 @@
 
 body {
   font-family: 'Cinzel', serif;
-  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
-  color:#212529;
+  background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color: #212529;
   text-align: justify;
 }
 
@@ -19,7 +18,6 @@ header {
   height: 50px;
   background: #333;
   color: #fff;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -27,13 +25,12 @@ header {
 }
 
 
-.grow:hover
-    {
-            -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            transform: scale(1.1);
-            transition: 1s;
-    }
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
 
 
 
@@ -62,9 +59,8 @@ section {
   }
 }
 
-
-#menu-bar {
-  display: none;
+main {
+  margin: 5%;
 }
 
 header label {
@@ -72,7 +68,12 @@ header label {
   font-size: 28px;
   margin: 6px 0;
   cursor: pointer;
-  }
+}
+
+#menu-bar {
+  display: none;
+}
+
 
 .menu {
   position: absolute;
@@ -84,8 +85,6 @@ header label {
   transition: all 0.5s;
   transform: translateX(-100%);
 }
-
-
 
 .menu a {
   display: block;
@@ -123,22 +122,12 @@ header label {
   }
 }
 
-
-
-
-  .imagen1 {
-     margin:10px;
-     float:right;
-     width: 50% ;
-     height: 50%;
-     border-radius: 8px;
-     max-width: 100%;
-     height: auto;
-  }
-
-  
-  main {
-      
-    margin: 5%;
-   
-  }
+.imagen1 {
+  margin: 10px;
+  float: right;
+  width: 57%;
+  height: 50%;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}

@@ -8,20 +8,21 @@
 }
 
 body {
-  font-family: 'Cinzel', serif;
-  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
-  color:#212529;
+  font-family: "Cinzel", unset;
+  background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color: #212529;
   text-align: justify;
 }
 
-
+main {
+  margin: 5%;
+}
 
 header {
   width: 100%;
   height: 50px;
   background: #333;
   color: #fff;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -29,15 +30,12 @@ header {
 }
 
 
-.grow:hover
-    {
-            -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            transform: scale(1.1);
-            transition: 1s;
-    }
-
-
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
 
 .contenedor {
   width: 98%;
@@ -52,6 +50,13 @@ header .contenedor {
   display: table;
 }
 
+header label {
+  float: right;
+  font-size: 28px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
 section {
   width: 100%;
   margin-bottom: 25px;
@@ -64,18 +69,6 @@ section {
   }
 }
 
-
-#menu-bar {
-  display: none;
-}
-
-header label {
-  float: right;
-  font-size: 28px;
-  margin: 6px 0;
-  cursor: pointer;
-  }
-
 .menu {
   position: absolute;
   top: 50px;
@@ -85,9 +78,12 @@ header label {
   background: rgba(51, 51, 51, 0.9);
   transition: all 0.5s;
   transform: translateX(-100%);
+  font-family: 'Cinzel', serif;
 }
 
-
+#menu-bar {
+  display: none;
+}
 
 .menu a {
   display: block;
@@ -126,40 +122,26 @@ header label {
 }
 
 
+.imagen1 {
+  margin: 10px;
+  float: left;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
 
+.imagen2 {
+  margin: 10px;
+  float: right;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
 
-  .imagen1 {
-    margin:10px;
-    float:left;
-    border-radius: 8px;
-    max-width: 100%;
-    height: auto;
-    }
-
-  .imagen2 {
-    margin:10px; 
-    float:right;
-    border-radius: 8px;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .imagen3 {
-    margin:10px; 
-    float:left;
-    border-radius: 8px;
-    max-width: 100%;
-    height: auto;
-  }
-
-  main {
-      
-    margin: 5%;
-   
-  }
-
-
-
-
-
-  
+.imagen3 {
+  margin: 10px;
+  float: left;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}

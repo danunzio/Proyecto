@@ -8,9 +8,9 @@
 }
 
 body {
-  font-family: 'Cinzel', serif;
-  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
-  color:#212529;
+  font-family: "Cinzel", unset;
+  background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color: #212529;
   text-align: justify;
 }
 
@@ -26,15 +26,17 @@ header {
   z-index: 100;
 }
 
+main {
+  margin: 5%;
+}
 
-.grow:hover
-    {
-            -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            transform: scale(1.1);
-            transition: 1s;
-    }
 
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
 
 
 .contenedor {
@@ -55,13 +57,11 @@ section {
   margin-bottom: 25px;
 }
 
-
 @media (min-width:1024px) {
   .contenedor {
     width: 1000px;
   }
 }
-
 
 #menu-bar {
   display: none;
@@ -72,7 +72,7 @@ header label {
   font-size: 28px;
   margin: 6px 0;
   cursor: pointer;
-  }
+}
 
 .menu {
   position: absolute;
@@ -83,8 +83,8 @@ header label {
   background: rgba(51, 51, 51, 0.9);
   transition: all 0.5s;
   transform: translateX(-100%);
+  font-family: 'Cinzel', serif;
 }
-
 
 
 .menu a {
@@ -123,20 +123,12 @@ header label {
   }
 }
 
+.imagen1 {
+  margin: 10px;
+  float: right;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
 
 
-
-  .imagen1 {
-    margin:10px;
-    float:right;
-    border-radius: 8px;
-    max-width: 100%;
-    height: auto;
-    }
-
-  
-  main {
-      
-    margin: 5%;
-   
-  }
